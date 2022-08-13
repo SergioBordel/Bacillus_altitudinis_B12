@@ -23,4 +23,8 @@ FastTree.nhk
 Amino acid sequences of the secreted proteins predicted by SignalP-5.0:
 secretome.faa
 
+BLAST outputs to identify putative PLA and PBAT depolimerases in the secretome:
+resultspla.txt, resultspbat.txt
 
+BLAST output to identify putative keratinases in the secretome:
+resultsker.txt
