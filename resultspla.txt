@@ -1,0 +1,891 @@
+BLASTP 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: secretome.faa
+           353 sequences; 110,921 total letters
+
+
+
+Query= BAC67195.1 PLA depolymerase [Paenibacillus amylolyticus]
+
+Length=201
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gnl|fig|6666666.796965.peg.2746_SP(Sec/SPI)  unnamed protein product  172     4e-55
+gnl|fig|6666666.796965.peg.3092_SP(Sec/SPI)  unnamed protein product  30.8    0.005
+gnl|fig|6666666.796965.peg.565_SP(Sec/SPI)  unnamed protein product   23.1    0.34 
+gnl|fig|6666666.796965.peg.1901_SP(Sec/SPI)  unnamed protein product  24.6    0.38 
+gnl|fig|6666666.796965.peg.1999_SP(Sec/SPI)  unnamed protein product  23.5    0.83 
+gnl|fig|6666666.796965.peg.1112_SP(Sec/SPI)  unnamed protein product  23.5    0.96 
+gnl|fig|6666666.796965.peg.735_SP(Sec/SPI)  unnamed protein product   21.6    4.3  
+gnl|fig|6666666.796965.peg.909_SP(Sec/SPI)  unnamed protein product   21.6    4.7  
+gnl|fig|6666666.796965.peg.1118_SP(Sec/SPI)  unnamed protein product  21.2    5.5  
+gnl|fig|6666666.796965.peg.2398_LIPO(Sec/SPII)  unnamed protein p...  20.8    6.4  
+gnl|fig|6666666.796965.peg.1881_SP(Sec/SPI)  unnamed protein product  21.2    6.9  
+gnl|fig|6666666.796965.peg.3380_LIPO(Sec/SPII)  unnamed protein p...  20.8    7.4  
+gnl|fig|6666666.796965.peg.3452_SP(Sec/SPI)  unnamed protein product  20.8    8.1  
+gnl|fig|6666666.796965.peg.1427_SP(Sec/SPI)  unnamed protein product  20.4    9.7  
+
+
+>gnl|fig|6666666.796965.peg.2746_SP(Sec/SPI) unnamed protein product
+Length=213
+
+ Score = 172 bits (435),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 97/208 (47%), Positives = 129/208 (62%), Gaps = 15/208 (7%)
+
+Query  1    MRKLKLLLMVCMSMVF---IFTLPGMGQSLKASAATERTPIVFVHGLTGSDSNFALIERY  57
+             +K  L ++V +++V     F  P      K + A    P+V VHG+ G+  NFA I+RY
+Sbjct  4    FKKKSLQILVALALVLGSMAFIQP------KEAKAAAHNPVVMVHGMGGASYNFASIKRY  57
+
+Query  58   LRGEGWSSDELFAIDLPSKAGNQLLNSAAISRFVDDVLRQTGHSKVHIVAHSMGGANSLY  117
+            L  +GW  ++LFAID   K GN L N   +SRFV DVL +TG  KV IVAHSMGGAN+LY
+Sbjct  58   LVSQGWDQNQLFAIDFIDKTGNNLNNGPRLSRFVKDVLAKTGAKKVDIVAHSMGGANTLY  117
+
+Query  118  YILNRGGIDKVDKLITLGGANRLTTSRAPDG------IRVTSIYSTSDTIVSPALSRLDG  171
+            YI N  G DK++ ++TLGGAN L + RA  G      I  TS+YS++D IV  +LSRL G
+Sbjct  118  YIKNLDGGDKIENVVTLGGANGLVSLRALPGTDPNQKILYTSVYSSADLIVVNSLSRLIG  177
+
+Query  172  ANNISVNLVTHIGLLYNSRVNALIKAAL  199
+            A N+ ++ V HIGLL +S+V   +K  L
+Sbjct  178  ARNVLIHGVGHIGLLTSSQVKGYVKEGL  205
+
+
+>gnl|fig|6666666.796965.peg.3092_SP(Sec/SPI) unnamed protein product
+Length=494
+
+ Score = 30.8 bits (68),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 29/115 (25%), Positives = 46/115 (40%), Gaps = 30/115 (26%)
+
+Query  35   RTPIVFVHGLTGSDSNFALIERYLRGEGWSSDELFAIDLPSKAGNQLLNSAAISRFVDDV  94
+            + P+VFVHG+  S S             WS       D+  +A      SA I  + D  
+Sbjct  48   KPPLVFVHGINSSSST------------WSDRN----DMAKQAVLNGYESAFIDLYPDQD  91
+
+Query  95   LRQTGH--------------SKVHIVAHSMGGANSLYYILNRGGIDKVDKLITLG  135
+            +++ G                K+ I+ HS GG ++   ++       V+K+ITLG
+Sbjct  92   MKKNGKLLAEKLKEIYEFFGRKLIIIGHSKGGVDTQAALVYYNAHPYVEKVITLG  146
+
+
+>gnl|fig|6666666.796965.peg.565_SP(Sec/SPI) unnamed protein product
+Length=37
+
+ Score = 23.1 bits (48),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 9/31 (29%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+
+Query  9   MVCMSMVFIFTLPGMGQSLKASAATERTPIV  39
+           ++C  +VF+FTL     +  AS  T +  ++
+Sbjct  5   LICFQLVFLFTLTATPFASAASCPTVKPCVI  35
+
+
+>gnl|fig|6666666.796965.peg.1901_SP(Sec/SPI) unnamed protein product
+Length=228
+
+ Score = 24.6 bits (52),  Expect = 0.38, Method: Compositional matrix adjust.
+ Identities = 8/19 (42%), Positives = 14/19 (74%), Gaps = 0/19 (0%)
+
+Query  1   MRKLKLLLMVCMSMVFIFT  19
+           +RKL+LL ++C+ +  I T
+Sbjct  3   LRKLRLLFVMCIGLTLILT  21
+
+
+>gnl|fig|6666666.796965.peg.1999_SP(Sec/SPI) unnamed protein product
+Length=205
+
+ Score = 23.5 bits (49),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 17/61 (28%), Positives = 28/61 (46%), Gaps = 4/61 (7%)
+
+Query  115  SLYYILNRGGIDKVDKLITLGGANRLTTSRAPDGIRVTSIYSTSDTIVSPALSRLDGANN  174
+            +L+ I   G I     L+T   +   ++ +AP     T++Y TSD   S  LS+ D    
+Sbjct  11   ALFTIATFGLISPPSALMTDKPSELSSSDKAP----YTAVYDTSDDTRSWELSQEDNKER  66
+
+Query  175  I  175
+            +
+Sbjct  67   V  67
+
+
+>gnl|fig|6666666.796965.peg.1112_SP(Sec/SPI) unnamed protein product
+Length=316
+
+ Score = 23.5 bits (49),  Expect = 0.96, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  17   IFTLPGMGQSLKASAATERTPIV  39
+            IFT PG+G+    SA +   P++
+Sbjct  263  IFTWPGLGKLFIDSAFSRDYPVI  285
+
+
+>gnl|fig|6666666.796965.peg.735_SP(Sec/SPI) unnamed protein product
+Length=543
+
+ Score = 21.6 bits (44),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 11/19 (58%), Gaps = 0/19 (0%)
+
+Query  111  GGANSLYYILNRGGIDKVD  129
+            G +N LYY   RG   K+D
+Sbjct  272  GFSNDLYYTNTRGKDGKID  290
+
+
+>gnl|fig|6666666.796965.peg.909_SP(Sec/SPI) unnamed protein product
+Length=968
+
+ Score = 21.6 bits (44),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 8/27 (30%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  1   MRKLKLLLMVCMSMVFIFTLPGMGQSL  27
+           M++++ + MVC  ++ IF+L  +  S+
+Sbjct  1   MKRIQSIRMVCCLILVIFSLQSLLPSI  27
+
+
+>gnl|fig|6666666.796965.peg.1118_SP(Sec/SPI) unnamed protein product
+Length=309
+
+ Score = 21.2 bits (43),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 6/23 (26%), Positives = 13/23 (57%), Gaps = 0/23 (0%)
+
+Query  17   IFTLPGMGQSLKASAATERTPIV  39
+            IF++PG+G+    +      P++
+Sbjct  251  IFSIPGIGEQFVKAITVNDYPVI  273
+
+
+>gnl|fig|6666666.796965.peg.2398_LIPO(Sec/SPII) unnamed protein product
+Length=219
+
+ Score = 20.8 bits (42),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 12/36 (33%), Positives = 17/36 (47%), Gaps = 2/36 (6%)
+
+Query  1   MRKLKLLLMVCMSMVFIFTLPGMGQSLKASAATERT  36
+           M+K KL+L +C   + + T  G   S    A  E T
+Sbjct  1   MKKAKLILFLC--FMAVLTACGNTNSSTDPAKKEET  34
+
+
+>gnl|fig|6666666.796965.peg.1881_SP(Sec/SPI) unnamed protein product
+Length=494
+
+ Score = 21.2 bits (43),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 11/46 (24%), Positives = 20/46 (43%), Gaps = 13/46 (28%)
+
+Query  48   DSNFALIERYLRGEG-------------WSSDELFAIDLPSKAGNQ  80
+            +S+FA + + ++  G             W  D  ++IDLP    +Q
+Sbjct  134  ESDFAALAKQVKKAGIHTIRGQLAADDTWFDDTRYSIDLPWSDEDQ  179
+
+
+>gnl|fig|6666666.796965.peg.3380_LIPO(Sec/SPII) unnamed protein product
+Length=327
+
+ Score = 20.8 bits (42),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 11/37 (30%), Positives = 19/37 (51%), Gaps = 11/37 (30%)
+
+Query  1   MRKLKLLLMVCMSMVFIF----------TLPGMGQSL  27
+           M+++K  L +C+S++  F          T PG  QS+
+Sbjct  1   MKRVKYFL-ICLSVLLFFLAGCGKDQQFTPPGSSQSI  36
+
+
+>gnl|fig|6666666.796965.peg.3452_SP(Sec/SPI) unnamed protein product
+Length=876
+
+ Score = 20.8 bits (42),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 30/66 (45%), Gaps = 2/66 (3%)
+
+Query  22   GMGQSLKASAATERTPIVF-VHGLTGSDSN-FALIERYLRGEGWSSDELFAIDLPSKAGN  79
+            G G S+ A+       IV+ ++G+   DSN   L  +Y   + W + E   I      GN
+Sbjct  756  GNGSSILANGTKFNDRIVYNMYGIGAYDSNPNYLGAKYAYEQQWFTPEAAIIGGAKFIGN  815
+
+Query  80   QLLNSA  85
+              +N+A
+Sbjct  816  SYINNA  821
+
+
+>gnl|fig|6666666.796965.peg.1427_SP(Sec/SPI) unnamed protein product
+Length=211
+
+ Score = 20.4 bits (41),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 18/32 (56%), Gaps = 3/32 (9%)
+
+Query  2   RKLKLLLMVCMSMVFIFTLPGMGQSLKASAAT  33
+           + L  ++   ++++F FT    GQ   ASAAT
+Sbjct  7   KSLSSVVFFALAIIFTFTTVAPGQ---ASAAT  35
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12238116
+
+
+Query= AF134840.1 Bacillus thermoleovorans lipase (ARA
+
+Length=416
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gnl|fig|6666666.796965.peg.3020_SP(Sec/SPI)  unnamed protein product  27.3    0.092
+gnl|fig|6666666.796965.peg.2446_SP(Sec/SPI)  unnamed protein product  25.0    0.79 
+gnl|fig|6666666.796965.peg.801_SP(Sec/SPI)  unnamed protein product   25.4    0.80 
+gnl|fig|6666666.796965.peg.3022_SP(Sec/SPI)  unnamed protein product  24.3    1.2  
+gnl|fig|6666666.796965.peg.3092_SP(Sec/SPI)  unnamed protein product  24.3    1.5  
+gnl|fig|6666666.796965.peg.1013_SP(Sec/SPI)  unnamed protein product  23.5    3.0  
+gnl|fig|6666666.796965.peg.2508_SP(Sec/SPI)  unnamed protein product  23.5    3.0  
+gnl|fig|6666666.796965.peg.2746_SP(Sec/SPI)  unnamed protein product  22.3    5.5  
+gnl|fig|6666666.796965.peg.268_SP(Sec/SPI)  unnamed protein product   21.9    6.6  
+gnl|fig|6666666.796965.peg.2410_SP(Sec/SPI)  unnamed protein product  21.9    8.2  
+
+
+>gnl|fig|6666666.796965.peg.3020_SP(Sec/SPI) unnamed protein product
+Length=116
+
+ Score = 27.3 bits (59),  Expect = 0.092, Method: Composition-based stats.
+ Identities = 16/43 (37%), Positives = 23/43 (53%), Gaps = 4/43 (9%)
+
+Query  272  LSVSGAEKLNQWVQASPNTYYLSFATERTYRGALTGNYYPELG  314
+            +SVSGA    Q  Q +PN  ++        RG++T +YY  LG
+Sbjct  68   ISVSGATYAIQLDQTAPNFTWI----RAVQRGSVTVSYYNSLG  106
+
+
+>gnl|fig|6666666.796965.peg.2446_SP(Sec/SPI) unnamed protein product
+Length=262
+
+ Score = 25.0 bits (53),  Expect = 0.79, Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  53   FGFKYWGGVRGDIEQWLNDN  72
+            +  KYW GV+ +I+ W  D+
+Sbjct  92   YDIKYWDGVKREIDNWNKDH  111
+
+
+>gnl|fig|6666666.796965.peg.801_SP(Sec/SPI) unnamed protein product
+Length=2038
+
+ Score = 25.4 bits (54),  Expect = 0.80, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 17/35 (49%), Gaps = 6/35 (17%)
+
+Query  354  NGPKRGSSDRIVPYDGALKKGVWNDMGTYNVDHLE  388
+            NG K G+      YD   K+  WN    YN+ HLE
+Sbjct  758  NGFKNGT------YDAKKKEITWNIGVNYNLKHLE  786
+
+
+>gnl|fig|6666666.796965.peg.3022_SP(Sec/SPI) unnamed protein product
+Length=157
+
+ Score = 24.3 bits (51),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 23/45 (51%), Gaps = 2/45 (4%)
+
+Query  158  SQEEREYAKAHNVSLSPLFEGGHHFVLSVTTIATPHDGTTLVNMV  202
+            SQ    + K  N + S  +E G ++ + V  ++  HD + L N+V
+Sbjct  61   SQNRDGFVK--NAAYSAFYEAGQNYNVVVQNLSQDHDFSGLNNVV  103
+
+
+>gnl|fig|6666666.796965.peg.3092_SP(Sec/SPI) unnamed protein product
+Length=494
+
+ Score = 24.3 bits (51),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 16/70 (23%), Positives = 28/70 (40%), Gaps = 23/70 (33%)
+
+Query  132  GGRIHIIAHSQGGQTARMLVSLLENGSQEEREYAKAHNVSLSPLFEGGHHFVLSVTTIAT  191
+            G ++ II HS+GG   +  +                       ++   H +V  V T+ +
+Sbjct  111  GRKLIIIGHSKGGVDTQAAL-----------------------VYYNAHPYVEKVITLGS  147
+
+Query  192  PHDGTTLVNM  201
+            PH GT L ++
+Sbjct  148  PHYGTPLADL  157
+
+
+>gnl|fig|6666666.796965.peg.1013_SP(Sec/SPI) unnamed protein product
+Length=383
+
+ Score = 23.5 bits (49),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 36/165 (22%), Positives = 62/165 (38%), Gaps = 33/165 (20%)
+
+Query  1    MKCCRVMF-VLLGLWLVFGLSVSGGRAEAAASRANDAPIVLLHGFTGWGREEMFGFKYWG  59
+            +K   VM  VLL + L+F     G  A A  +  +++            +  + GFK   
+Sbjct  3    VKKKNVMTSVLLAVPLLFSAGFGGSIANAETASKSESE-----------KSYIVGFKASA  51
+
+Query  60   GVRGDIEQWLNDNG------YRTYTLAVGPLSSNWDRACEAYAQLVGGTVDYGAAHAAK-  112
+                  +Q +  NG      YR    A   +S    +  E          D   A+  + 
+Sbjct  52   TTNSSKKQAVTQNGGKLEKQYRLINAAQVKMSEQAAKKLEH---------DPSIAYVEED  102
+
+Query  113  HGHARFGRTYPGLLPELKRGGRIHIIAHSQGGQTARMLVSLLENG  157
+            H    + +T P  +P++K         H+QG + A + V++L+ G
+Sbjct  103  HKAEAYAQTVPYGIPQIKAPA-----VHAQGYKGANVKVAVLDTG  142
+
+
+>gnl|fig|6666666.796965.peg.2508_SP(Sec/SPI) unnamed protein product
+Length=526
+
+ Score = 23.5 bits (49),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 11/33 (33%), Positives = 16/33 (48%), Gaps = 0/33 (0%)
+
+Query  26   AEAAASRANDAPIVLLHGFTGWGREEMFGFKYW  58
+            A+ AAS + +  + +L    GW   E  G K W
+Sbjct  209  AQVAASLSRNTQVTILREQNGWYEIEAKGVKGW  241
+
+
+>gnl|fig|6666666.796965.peg.2746_SP(Sec/SPI) unnamed protein product
+Length=213
+
+ Score = 22.3 bits (46),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 20/38 (53%), Gaps = 2/38 (5%)
+
+Query  9   VLLGLWLVFGLSVSGGRAEAAASRANDAPIVLLHGFTG  46
+           +L+ L LV G        EA A+  N  P+V++HG  G
+Sbjct  11  ILVALALVLGSMAFIQPKEAKAAAHN--PVVMVHGMGG  46
+
+
+ Score = 21.9 bits (45),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 9/28 (32%), Positives = 15/28 (54%), Gaps = 0/28 (0%)
+
+Query  134  RIHIIAHSQGGQTARMLVSLLENGSQEE  161
+            ++ I+AHS GG      +  L+ G + E
+Sbjct  102  KVDIVAHSMGGANTLYYIKNLDGGDKIE  129
+
+
+>gnl|fig|6666666.796965.peg.268_SP(Sec/SPI) unnamed protein product
+Length=160
+
+ Score = 21.9 bits (45),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  79   LAVGPLSSNWDRACEAYAQLVGGTVD  104
+            +A  P+   ++ A ++YAQ   GT D
+Sbjct  75   MANQPIQLYFEAAIKSYAQTATGTTD  100
+
+
+>gnl|fig|6666666.796965.peg.2410_SP(Sec/SPI) unnamed protein product
+Length=470
+
+ Score = 21.9 bits (45),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 10/26 (38%), Positives = 15/26 (58%), Gaps = 6/26 (23%)
+
+Query  114  GHARF------GRTYPGLLPELKRGG  133
+            GHA F       + YP +L E+++GG
+Sbjct  303  GHATFFVLGSRVQYYPDMLSEIRKGG  328
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 30037708
+
+
+Query= CAA64621.1 Bacillus thermocatenulatus lipase
+
+Length=417
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gnl|fig|6666666.796965.peg.1676_SP(Sec/SPI)  unnamed protein product  27.7    0.098
+gnl|fig|6666666.796965.peg.3020_SP(Sec/SPI)  unnamed protein product  25.4    0.35 
+gnl|fig|6666666.796965.peg.3022_SP(Sec/SPI)  unnamed protein product  24.3    1.1  
+gnl|fig|6666666.796965.peg.2446_SP(Sec/SPI)  unnamed protein product  24.3    1.4  
+gnl|fig|6666666.796965.peg.3092_SP(Sec/SPI)  unnamed protein product  23.9    2.1  
+gnl|fig|6666666.796965.peg.2746_SP(Sec/SPI)  unnamed protein product  22.7    4.6  
+gnl|fig|6666666.796965.peg.268_SP(Sec/SPI)  unnamed protein product   21.9    6.6  
+gnl|fig|6666666.796965.peg.3031_SP(Sec/SPI)  unnamed protein product  21.9    8.1  
+gnl|fig|6666666.796965.peg.2410_SP(Sec/SPI)  unnamed protein product  21.9    8.1  
+gnl|fig|6666666.796965.peg.3495_SP(Sec/SPI)  unnamed protein product  21.9    9.9  
+
+
+>gnl|fig|6666666.796965.peg.1676_SP(Sec/SPI) unnamed protein product
+Length=178
+
+ Score = 27.7 bits (60),  Expect = 0.098, Method: Compositional matrix adjust.
+ Identities = 17/57 (30%), Positives = 24/57 (42%), Gaps = 6/57 (11%)
+
+Query  2   MKGCRVMVVLLGLWFVFGLSVP------GGRTEAASPRANDAPIVLLHGFTGWGREE  52
+           MK    ++++  L  V  LSVP      G +TE      N  P  L    TG  ++E
+Sbjct  1   MKKTWTIIMMGMLTLVMALSVPLAASAEGAKTEEGKASTNARPAALYAKITGASKQE  57
+
+
+>gnl|fig|6666666.796965.peg.3020_SP(Sec/SPI) unnamed protein product
+Length=116
+
+ Score = 25.4 bits (54),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 22/43 (51%), Gaps = 4/43 (9%)
+
+Query  273  LSIPGAEKLNQWVQASPNTYYLSFSTERTHRGALTGNYYPELG  315
+            +S+ GA    Q  Q +PN  ++        RG++T +YY  LG
+Sbjct  68   ISVSGATYAIQLDQTAPNFTWI----RAVQRGSVTVSYYNSLG  106
+
+
+>gnl|fig|6666666.796965.peg.3022_SP(Sec/SPI) unnamed protein product
+Length=157
+
+ Score = 24.3 bits (51),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 23/45 (51%), Gaps = 2/45 (4%)
+
+Query  159  SQEEREYAKAHNVSLSPLFEGGHHFVLSVTTIATPHDGTTLVNMV  203
+            SQ    + K  N + S  +E G ++ + V  ++  HD + L N+V
+Sbjct  61   SQNRDGFVK--NAAYSAFYEAGQNYNVVVQNLSQDHDFSGLNNVV  103
+
+
+>gnl|fig|6666666.796965.peg.2446_SP(Sec/SPI) unnamed protein product
+Length=262
+
+ Score = 24.3 bits (51),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  56   FKYWGGVRGDIEQWLNDN  73
+             KYW GV+ +I+ W  D+
+Sbjct  94   IKYWDGVKREIDNWNKDH  111
+
+
+>gnl|fig|6666666.796965.peg.3092_SP(Sec/SPI) unnamed protein product
+Length=494
+
+ Score = 23.9 bits (50),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 16/70 (23%), Positives = 28/70 (40%), Gaps = 23/70 (33%)
+
+Query  133  GGRVHIIAHSQGGQTARMLVSLLENGSQEEREYAKAHNVSLSPLFEGGHHFVLSVTTIAT  192
+            G ++ II HS+GG   +  +                       ++   H +V  V T+ +
+Sbjct  111  GRKLIIIGHSKGGVDTQAAL-----------------------VYYNAHPYVEKVITLGS  147
+
+Query  193  PHDGTTLVNM  202
+            PH GT L ++
+Sbjct  148  PHYGTPLADL  157
+
+
+>gnl|fig|6666666.796965.peg.2746_SP(Sec/SPI) unnamed protein product
+Length=213
+
+ Score = 22.7 bits (47),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 10/28 (36%), Positives = 15/28 (54%), Gaps = 0/28 (0%)
+
+Query  135  RVHIIAHSQGGQTARMLVSLLENGSQEE  162
+            +V I+AHS GG      +  L+ G + E
+Sbjct  102  KVDIVAHSMGGANTLYYIKNLDGGDKIE  129
+
+
+>gnl|fig|6666666.796965.peg.268_SP(Sec/SPI) unnamed protein product
+Length=160
+
+ Score = 21.9 bits (45),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  80   LAVGPLSSNWDRACEAYAQLVGGTVD  105
+            +A  P+   ++ A ++YAQ   GT D
+Sbjct  75   MANQPIQLYFEAAIKSYAQTATGTTD  100
+
+
+>gnl|fig|6666666.796965.peg.3031_SP(Sec/SPI) unnamed protein product
+Length=663
+
+ Score = 21.9 bits (45),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 14/31 (45%), Gaps = 0/31 (0%)
+
+Query  15   WFVFGLSVPGGRTEAASPRANDAPIVLLHGF  45
+            W + G        EAA P  N A I+L+  F
+Sbjct  263  WKIAGTMFVSETEEAAQPVWNSAIILLISSF  293
+
+
+>gnl|fig|6666666.796965.peg.2410_SP(Sec/SPI) unnamed protein product
+Length=470
+
+ Score = 21.9 bits (45),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 10/26 (38%), Positives = 15/26 (58%), Gaps = 6/26 (23%)
+
+Query  115  GHARF------GRTYPGLLPELKRGG  134
+            GHA F       + YP +L E+++GG
+Sbjct  303  GHATFFVLGSRVQYYPDMLSEIRKGG  328
+
+
+>gnl|fig|6666666.796965.peg.3495_SP(Sec/SPI) unnamed protein product
+Length=439
+
+ Score = 21.9 bits (45),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 24/92 (26%), Positives = 36/92 (39%), Gaps = 11/92 (12%)
+
+Query  193  PHDGTTLVNMVDFTDRFFDLQKAVLKAAAVASNVPYTSQVYDFKLDQWGLRRQPGESFDH  252
+            P D   LV +       F+L KAV+K     +N    + +   K        + GE+ + 
+Sbjct  262  PKDTNALVQIAGHVFHDFELLKAVIK----VNNEQRATYIRSVK-------ERMGENLEG  310
+
+Query  253  YFERLKRSPVWTSTDTARYDLSIPGAEKLNQW  284
+                L       +TD  R   SIP A +L+Q 
+Sbjct  311  KRMALLGLSFKPNTDDIREAPSIPIAHQLHQL  342
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 30124272
+
+
+Query= BAD02196.1 poly(L-lactic acid) depolymerase A [Amycolatopsis sp.
+K104-1]
+
+Length=238
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gnl|fig|6666666.796965.peg.1750_SP(Sec/SPI)  unnamed protein product  34.7    3e-04
+gnl|fig|6666666.796965.peg.1676_SP(Sec/SPI)  unnamed protein product  24.3    0.67 
+gnl|fig|6666666.796965.peg.1079_LIPO(Sec/SPII)  unnamed protein p...  22.7    2.1  
+gnl|fig|6666666.796965.peg.600_SP(Sec/SPI)  unnamed protein product   22.3    2.7  
+gnl|fig|6666666.796965.peg.174_SP(Sec/SPI)  unnamed protein product   21.6    5.8  
+gnl|fig|6666666.796965.peg.3299_SP(Sec/SPI)  unnamed protein product  21.2    8.7  
+gnl|fig|6666666.796965.peg.2911_SP(Sec/SPI)  unnamed protein product  20.4    9.0  
+
+
+>gnl|fig|6666666.796965.peg.1750_SP(Sec/SPI) unnamed protein product
+Length=302
+
+ Score = 34.7 bits (78),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 27/93 (29%), Positives = 42/93 (45%), Gaps = 16/93 (17%)
+
+Query  40   SNATSGPWAARLFVN-GRQNCTATIIAPQYILTAKHCVSSSGTYTFRIGSLDQTSGGTMA  98
+            +N    P+ +  ++  G  +CT T+IAP  ILT  HCV ++ T ++             A
+Sbjct  99   TNTRVAPYNSIAYITFGGSSCTGTLIAPNKILTNGHCVYNTATRSYS------------A  146
+
+Query  99   TGSTITRYPGSADLAIVRLTTSVNATYSPLGSV  131
+             GS    YPG  D   V  + ++   Y P G +
+Sbjct  147  KGSV---YPGMNDSTAVNGSANMTEFYVPSGYI  176
+
+
+>gnl|fig|6666666.796965.peg.1676_SP(Sec/SPI) unnamed protein product
+Length=178
+
+ Score = 24.3 bits (51),  Expect = 0.67, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 19/38 (50%), Gaps = 1/38 (3%)
+
+Query  67   QYILTAKHCV-SSSGTYTFRIGSLDQTSGGTMATGSTI  103
+            QY L   H V  ++GTYTFR  +   + G T     TI
+Sbjct  124  QYTLQLSHKVLPAAGTYTFRAENRAISIGSTFYAEDTI  161
+
+
+>gnl|fig|6666666.796965.peg.1079_LIPO(Sec/SPII) unnamed protein product
+Length=325
+
+ Score = 22.7 bits (47),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 12/57 (21%), Positives = 26/57 (46%), Gaps = 14/57 (25%)
+
+Query  181  VAVCANRVNGITAGGDSGGPMFASGRQVGVASTSD-----RVNNTAYTNITRYRSWI  232
+            +A C+N+          GGP  ++ + +GV  T D       N++++  + + R  +
+Sbjct  17   LASCSNQ---------QGGPPISNAKHIGVMLTDDGLGDQSFNDSSFKGLEKARDEL  64
+
+
+>gnl|fig|6666666.796965.peg.600_SP(Sec/SPI) unnamed protein product
+Length=224
+
+ Score = 22.3 bits (46),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 14/71 (20%), Positives = 29/71 (41%), Gaps = 5/71 (7%)
+
+Query  51   LFVNGRQNCTATIIAPQY-----ILTAKHCVSSSGTYTFRIGSLDQTSGGTMATGSTITR  105
+            L+VNG+      +  P       ++   H V  +GT ++   S          +GS   +
+Sbjct  127  LYVNGKLRYKQPVYNPSRLKNLDVVKMVHGVQDNGTNSYSQASFSNVQLRANTSGSVYKK  186
+
+Query  106  YPGSADLAIVR  116
+            + G+   +++R
+Sbjct  187  WDGTVKSSLLR  197
+
+
+>gnl|fig|6666666.796965.peg.174_SP(Sec/SPI) unnamed protein product
+Length=639
+
+ Score = 21.6 bits (44),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 22/82 (27%), Positives = 35/82 (43%), Gaps = 13/82 (16%)
+
+Query  77   SSSGTYTFRIGSLDQTSGGTMA--TGSTITRYPGSADLAIVRLTTSVNATYS-PLGSVGD  133
+            SS      R+G   QT  G     T ST+  +PG  D       T+V++ Y  PL    D
+Sbjct  191  SSDPELVTRLGL--QTMKGLQKEKTISTLKHFPGHGD-------TAVDSHYGLPLVE-HD  240
+
+Query  134  VSVGQNVSVYGWGATSQCGSEI  155
+            +   + V +Y +      G+++
+Sbjct  241  LDRLKKVELYPFQQAINAGADM  262
+
+
+>gnl|fig|6666666.796965.peg.3299_SP(Sec/SPI) unnamed protein product
+Length=441
+
+ Score = 21.2 bits (43),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 11/47 (23%), Positives = 21/47 (45%), Gaps = 6/47 (13%)
+
+Query  75   CVSSSGTYTFRI------GSLDQTSGGTMATGSTITRYPGSADLAIV  115
+            CV ++G + F++       +L Q    T+     +  YP +A   +V
+Sbjct  318  CVIAAGYFFFKVPILSLFTNLPQLLDVTLQYADWLVLYPFAACFGLV  364
+
+
+>gnl|fig|6666666.796965.peg.2911_SP(Sec/SPI) unnamed protein product
+Length=127
+
+ Score = 20.4 bits (41),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 8/24 (33%), Positives = 14/24 (58%), Gaps = 0/24 (0%)
+
+Query  5   KFVLLAASTALAVVGLGGPAAADS  28
+           +F+ +  +  L  +GL  PA+A S
+Sbjct  3   RFITITIAVVLMTLGLTTPASAAS  26
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.128    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15369246
+
+
+Query= BAF80067.1 poly(L-lactic acid) depolymerase B [Amycolatopsis sp.
+K104-1]
+
+Length=240
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gnl|fig|6666666.796965.peg.1750_SP(Sec/SPI)  unnamed protein product  26.6    0.15 
+gnl|fig|6666666.796965.peg.1191_SP(Sec/SPI)  unnamed protein product  22.3    2.4  
+gnl|fig|6666666.796965.peg.3323_SP(Sec/SPI)  unnamed protein product  21.9    4.7  
+gnl|fig|6666666.796965.peg.880_LIPO(Sec/SPII)  unnamed protein pr...  21.2    7.4  
+gnl|fig|6666666.796965.peg.2394_LIPO(Sec/SPII)  unnamed protein p...  21.2    7.4  
+gnl|fig|6666666.796965.peg.282_SP(Sec/SPI)  unnamed protein product   21.2    7.6  
+
+
+>gnl|fig|6666666.796965.peg.1750_SP(Sec/SPI) unnamed protein product
+Length=302
+
+ Score = 26.6 bits (57),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+
+Query  57   YQGFNCSGTVIASRWVLTAVHCL  79
+            + G +C+GT+IA   +LT  HC+
+Sbjct  114  FGGSSCTGTLIAPNKILTNGHCV  136
+
+
+>gnl|fig|6666666.796965.peg.1191_SP(Sec/SPI) unnamed protein product
+Length=123
+
+ Score = 22.3 bits (46),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 13/24 (54%), Gaps = 0/24 (0%)
+
+Query  49   YVNTPGRDYQGFNCSGTVIASRWV  72
+            YV+  GRD +G   SG+     W+
+Sbjct  83   YVSVSGRDIKGLKDSGSNQVEVWM  106
+
+
+>gnl|fig|6666666.796965.peg.3323_SP(Sec/SPI) unnamed protein product
+Length=469
+
+ Score = 21.9 bits (45),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  180  QSVGINGSAWKGDSGGPEVANGVQV  204
+            Q+VG+N S W  D    ++ N  Q+
+Sbjct  384  QAVGMNVSLWDVDPEDWKIRNSQQI  408
+
+
+>gnl|fig|6666666.796965.peg.880_LIPO(Sec/SPII) unnamed protein product
+Length=329
+
+ Score = 21.2 bits (43),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 24/92 (26%), Positives = 32/92 (35%), Gaps = 23/92 (25%)
+
+Query  96   LSGTKIAV-------DGEYESPN------GDIALLHLASATSASPISLGSSDPATGSTNQ  142
+            L G KIAV       D  Y+  +       D+ ++ L    + S    GS D        
+Sbjct  134  LKGKKIAVAKGSSGFDFLYKVLDQAGLSAKDVQIIQLQPDEAISAFENGSVD--------  185
+
+Query  143  IYGWGRTTPTGPPATSLKTANVQVTGRSTDAY  174
+               W    P     T  K A + V G +TD Y
+Sbjct  186  --AWSIWEPFLSLETIEKGAKLLVNGEATDLY  215
+
+
+>gnl|fig|6666666.796965.peg.2394_LIPO(Sec/SPII) unnamed protein product
+Length=242
+
+ Score = 21.2 bits (43),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 13/26 (50%), Gaps = 1/26 (4%)
+
+Query  216  SNTRGTN-NYASVAASRSWIRTTSGV  240
+            SNTRG+N ++     S  W+     V
+Sbjct  31   SNTRGSNWDFRDYPTSEKWVNLMKNV  56
+
+
+>gnl|fig|6666666.796965.peg.282_SP(Sec/SPI) unnamed protein product
+Length=543
+
+ Score = 21.2 bits (43),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 20/58 (34%), Positives = 28/58 (48%), Gaps = 8/58 (14%)
+
+Query  61   NCSGTV-IASRWVLTAVHCLDQDGSG-MYVRVGSNTLLSGTKIAVDGEYESPNGDIAL  116
+            N  GTV +AS   L AV  LD+ G G +Y      +LL G   A+  + +  N  +A 
+Sbjct  190  NDYGTVGVASGVKLYAVKVLDKKGEGDLY------SLLRGIDWAISNKMDIINLSLAF  241
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.125    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15395800
+
+
+Query= BAF80068.1 poly(L-lactic acid) depolymerase C [Amycolatopsis sp.
+K104-1]
+
+Length=234
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gnl|fig|6666666.796965.peg.1750_SP(Sec/SPI)  unnamed protein product  37.0    5e-05
+gnl|fig|6666666.796965.peg.379_LIPO(Sec/SPII)  unnamed protein pr...  25.0    0.42 
+gnl|fig|6666666.796965.peg.1079_LIPO(Sec/SPII)  unnamed protein p...  24.3    0.78 
+gnl|fig|6666666.796965.peg.2842_LIPO(Sec/SPII)  unnamed protein p...  22.7    1.9  
+gnl|fig|6666666.796965.peg.3668_SP(Sec/SPI)  unnamed protein product  21.9    4.3  
+gnl|fig|6666666.796965.peg.3279_SP(Sec/SPI)  unnamed protein product  21.2    5.8  
+gnl|fig|6666666.796965.peg.1191_SP(Sec/SPI)  unnamed protein product  20.8    6.0  
+gnl|fig|6666666.796965.peg.476_SP(Sec/SPI)  unnamed protein product   21.2    6.8  
+gnl|fig|6666666.796965.peg.2123_SP(Sec/SPI)  unnamed protein product  20.8    8.1  
+
+
+>gnl|fig|6666666.796965.peg.1750_SP(Sec/SPI) unnamed protein product
+Length=302
+
+ Score = 37.0 bits (84),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 23/37 (62%), Gaps = 4/37 (11%)
+
+Query  40   APWGAQIYWDNVTTYGGFECSGTIIAPQWVLTARHCL  76
+            AP+ +  Y     T+GG  C+GT+IAP  +LT  HC+
+Sbjct  104  APYNSIAY----ITFGGSSCTGTLIAPNKILTNGHCV  136
+
+
+>gnl|fig|6666666.796965.peg.379_LIPO(Sec/SPII) unnamed protein product
+Length=361
+
+ Score = 25.0 bits (53),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 14/57 (25%), Positives = 23/57 (40%), Gaps = 0/57 (0%)
+
+Query  117  AVSTTYMKLGTGNPPTGATNQIYGWGRTQGSSPPSSTLKTANVRVTGLSTDAFGGRA  173
+            A+    M +G   P  GA   +  W  T+GS    +  K  N      + +AF  ++
+Sbjct  249  ALEEEGMDIGFSYPKEGAVAAVASWALTKGSQHEEAAYKLLNYLSGKEAQEAFSEKS  305
+
+
+>gnl|fig|6666666.796965.peg.1079_LIPO(Sec/SPII) unnamed protein product
+Length=325
+
+ Score = 24.3 bits (51),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 10/40 (25%), Positives = 18/40 (45%), Gaps = 0/40 (0%)
+
+Query  189  GGPQLYNGAQVGVCSTGSNSGSNTQGTQNYASIASSRDWI  228
+            GGP + N   +GV  T    G  +    ++  +  +RD +
+Sbjct  25   GGPPISNAKHIGVMLTDDGLGDQSFNDSSFKGLEKARDEL  64
+
+
+>gnl|fig|6666666.796965.peg.2842_LIPO(Sec/SPII) unnamed protein product
+Length=145
+
+ Score = 22.7 bits (47),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 13/46 (28%), Positives = 22/46 (48%), Gaps = 1/46 (2%)
+
+Query  54   YGGFECSGTIIAPQWVLTARHCLNSPGMNVKVGNVALQQGKSADVD  99
+            +  F+  G  I  Q  +TA+   N P  N+ VG+V  +   + + D
+Sbjct  97   HTAFKQDGLYII-QVHVTAKQQHNMPKTNIHVGDVKKESSSTEEED  141
+
+
+>gnl|fig|6666666.796965.peg.3668_SP(Sec/SPI) unnamed protein product
+Length=807
+
+ Score = 21.9 bits (45),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  131  PTGATNQIYGWGRTQGSS  148
+            PT   +Q YG+G  QG+S
+Sbjct  516  PTHDPSQPYGYGSKQGTS  533
+
+
+>gnl|fig|6666666.796965.peg.3279_SP(Sec/SPI) unnamed protein product
+Length=154
+
+ Score = 21.2 bits (43),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 10/20 (50%), Gaps = 0/20 (0%)
+
+Query  127  TGNPPTGATNQIYGWGRTQG  146
+            T +PP+      Y WG  QG
+Sbjct  131  THHPPSQWVQDQYDWGVKQG  150
+
+
+>gnl|fig|6666666.796965.peg.1191_SP(Sec/SPI) unnamed protein product
+Length=123
+
+ Score = 20.8 bits (42),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 20/31 (65%), Gaps = 1/31 (3%)
+
+Query  1   MRMSRAVGAIGAAAAALSLVSAGVADAQQDI  31
+           M+M +++ ++  A +AL+    GVA AQ+ +
+Sbjct  1   MKMKKSMYSL-IAVSALTFTIGGVASAQESV  30
+
+
+>gnl|fig|6666666.796965.peg.476_SP(Sec/SPI) unnamed protein product
+Length=571
+
+ Score = 21.2 bits (43),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 11/34 (32%), Positives = 18/34 (53%), Gaps = 1/34 (3%)
+
+Query  110  ALLHLTTAVSTTYMKLGTGNPPTGATNQIYGWGR  143
+            +LL  ++   T Y++LG  NP T    ++   GR
+Sbjct  204  SLLPASSQTKTKYLQLGKINPVTDE-KKLLELGR  236
+
+
+>gnl|fig|6666666.796965.peg.2123_SP(Sec/SPI) unnamed protein product
+Length=215
+
+ Score = 20.8 bits (42),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 10/28 (36%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+
+Query  161  VTGLSTDAFGGRAIASQGINGSAWHGDS  188
+            + G  TD FG R  + +G++ +A  G+S
+Sbjct  33   IKGEVTDLFGTRGGSHKGLDIAAPEGES  60
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.126    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15015930
+
+
+  Database: secretome.faa
+    Posted date:  Jun 28, 2021  3:11 PM
+  Number of letters in database: 110,921
+  Number of sequences in database:  353
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
